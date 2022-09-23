@@ -1,0 +1,79 @@
+/*search box css start here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+    margin-bottom: 3%;
+    margin-top: 10%;
+
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 50%){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 70%){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+.logo {
+    width: 23%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+
+}
+
+.col-lg-5 {
+    position: absolute;
+    top: 42.5%;
+    left: 52.5%;
+}
+.BusStyle{
+    position: absolute;
+    top: 28.5%;
+    left: 1%;
+}
+.tagline{
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+    color: #EB1D36;
+    font-weight:  bold;
+}
+.user{
+ 	position: absolute;
+    top: 1%;
+    right: 6%;	
+    font-size: 30px;
+	color: #000;
+}
+
+.home{
+	position: absolute;
+    top: 1%;
+    right: 2%;
+	font-size: 30px;
+	color: #000;
+}

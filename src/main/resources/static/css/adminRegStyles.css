@@ -1,0 +1,190 @@
+.navbar {
+    height: 25%;
+    width: 100%;
+    background-color:rgb(235,235,235);
+    clear: both;
+}
+
+.logo {
+     float: left;
+    width: auto;
+    height: auto;
+    width: 25%;
+    padding-left: 4px;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+#pmsg,#emsg{
+	font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("bus.png");
+
+    background-size: cover;
+    font-family: sans-serif;
+}
+#title {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    background-image: url('../images/backgroundLogin.jpg');
+    background-size: cover;
+}
+.register {
+    width: 1366px;
+    height: 609px;
+
+}
+
+.registerbox {
+    width: 320px;
+    height: 560px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.8;
+}
+
+.registerbox h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: AR JULIAN;
+    color: red;
+}
+
+.registerbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.registerbox input {
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+
+.registerbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.registerbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.registerbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.registerbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.registerbox a {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.registerbox a:hover {
+    color: #ffc107;
+}
+
+.active {
+    color: #fff;
+    background: #e02626;
+    border-radius: 4px;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    background:rgb(235,235,235);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer .mylogo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+#footer .mylogo li {
+    list-style: none;
+}
+
+#footer .mylogo li a {
+    font-size: 2rem;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#footer .mylogo li a:hover {
+    transform: translateY(-10px);
+}
+
+#footer p {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 1028px) {
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+.fa-home{
+	font-size: 30px;
+}
